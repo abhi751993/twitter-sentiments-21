@@ -76,8 +76,8 @@ public class StreamingJob {
 
 //                        System.out.println(isEnglish && hasText);
 
-                        if (hasText)
-                            System.out.println(tweetJson.get("text").asText("asd"));
+//                        if (hasText)
+//                            System.out.println(tweetJson.get("text").asText("asd"));
 
                         if (isEnglish && hasText) {
                             System.out.println(tweetString);
